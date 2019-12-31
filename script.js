@@ -9,6 +9,9 @@ setTimeout(() => {
 function draw(image) {
 	const context = canvas.getContext("2d");
 	const width = image.naturalHeight * 500 / image.naturalWidth;
+	context.fillStyle = "white";
+	context.fillRect(0, 0, 500, 740);
+	context.fillStyle = "black";
 	context.drawImage(image, 0, 740 - width, 500, width);
 	context.font = "60px hkkaing";
 	context.fillText("謹賀新年", 30, 90);
