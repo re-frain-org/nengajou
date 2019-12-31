@@ -21,7 +21,7 @@ function draw(image) {
 	context.fillText("皆様のご健康とご多幸を", 30, 210);
 	context.fillText("お祈り申し上げます", 30, 240);
 	context.fillText("新年もよろしくお願いいたします", 30, 270);
-	context.fillText("　　　　　　　二〇一九年　元旦", 30, 330);
+	context.fillText("　　　　　　　二〇二〇年　元旦", 30, 330);
 	try {
 		const imageData = context.getImageData(0, 0, 500, 740);
 		dest.getContext("2d").putImageData(imageData, 0, 0);
